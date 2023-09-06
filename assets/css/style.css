@@ -34,7 +34,7 @@ section:first-child{
 
     border-radius: 0rem 0rem 1rem 1rem;
 
-    gap: 2rem;
+    gap: 1rem;
 }
 
 section:first-child div{
@@ -61,11 +61,11 @@ section:first-child div{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
+    gap: 2rem;
 
 }
 #home div{
-    max-width: 400px;
+    max-width: 600px;
 
     display: flex;
 
@@ -75,6 +75,7 @@ section:first-child div{
 }
 
 #home div p{
+    max-width: 100%;
 
     font-size: 2rem;
     text-align: center;
